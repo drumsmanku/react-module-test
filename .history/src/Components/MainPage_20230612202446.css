@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto';
+}
+
+.main-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.first-compartment{
+  width: 30%;
+  height: 100vh;
+}
+
+.first-compartment h1{
+  margin: 0;
+  text-align: left;
+  padding: 2rem;
+}
+.group-buttons{
+  height: 85%;
+  max-height: 85%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.cat-buttons{
+  width: 27rem;
+  height: 5rem;
+  background-color: white;
+  color: black;
+  margin: 1rem 1rem 1rem 0;
+  font-size: 1.3rem;
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  background: none;
+  border: none;
+  transition: 0.1s ease-in;
+
+}
+.cat-buttons:hover{
+  background-color: #F7ECDC;
+}
+.icon{
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+  
+}
+.second-compartment{
+  background-color: #F7ECDC;
+  width: 70%;
+  height: 100vh;
+}
+@media(max-width:768px){
+  .first-compartment {
+    width: 100%;
+    height: 100vh;
+  }
+  .first-compartment>h1{
+    font-size: 1.5rem;
+  }
+
+}

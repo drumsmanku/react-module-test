@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto';
+}
+
+.notes-container{
+  display: flex;
+  height: inherit;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.notes-section {
+  height: 60vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+}

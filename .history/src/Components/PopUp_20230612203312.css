@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto';
+  letter-spacing: 0.1rem;
+}
+
+.btn-1{
+  width: 23rem;
+  height: 3rem;
+  background-color: black;
+  border: none;
+  border-radius: 3rem;
+  color: white;
+  font-weight: 2rem;
+  font-size: 1.3rem;
+}
+
+@media(max-width: 768px){
+  .btn-1{
+    width:12rem;
+    font-size: 1rem;
+  }
+  .modal{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}

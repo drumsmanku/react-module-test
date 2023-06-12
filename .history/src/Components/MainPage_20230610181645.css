@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  font-family: 'Roboto';
+}
+
+.main-compartment{
+  height: 100vh;
+  width: 100vw;
+}
+
+.first-compartment{
+  width: 30%;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.first-compartment h1{
+  margin: 0;
+  text-align: left;
+  padding: 2rem;
+}
+.group-buttons{
+  height: inherit;
+  width: 80%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.cat-buttons{
+  width: 23rem;
+  height: 4rem;
+  background-color: white;
+  color: black;
+  margin: 1rem 1rem 1rem 0;
+  font-size: 1.3rem;
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+
+}
+.icon{
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}

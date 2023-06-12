@@ -61,3 +61,16 @@ body{
   width: 70%;
   height: 100vh;
 }
+/* @media(max-width:768px){
+  .first-compartment {
+    width: 100%;
+    height: 100vh;
+  }
+  .first-compartment>h1{
+    font-size: 1.5rem;
+  }
+  .cat-buttons{
+    height: 3rem;
+    font-size: 1rem;
+  }
+} */

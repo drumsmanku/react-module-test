@@ -78,7 +78,7 @@ const NotesComponent = ({ groupIndex, groupName }) => {
                 <p style={{ margin: "0" }}>{note.time}</p>
               </div>
               <div
-                style={{ marginLeft: "6rem", width: "70%", textAlign: "left",  }}
+                style={{ marginLeft: "6rem", width: "80%", textAlign: "left" }}
               >
                 {note.text}
               </div>
